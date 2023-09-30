@@ -588,23 +588,26 @@ section.vision {
     position: relative;
 }
 
-section.vision .text h3 {
-    position: absolute;
-    top: 180px;
+section.vision .left {
+    top: 140px;
     left: 136px;
+    position: absolute;
+}
+section.vision .text h3 {
+    
     font-size: 4rem;
     font-family: 'Open Sans', sans-serif;
 }
 
 .main-blog {
     position: absolute;
-    top: 400px;
-    left: 110px;
+    top: 300px;
+    left: -20px;
 }
 
 .blog-r .text,
 .blog-l .text {
-    width: 230px;
+    width: 300px;
     height: 90px;
     margin-left: 20px;
 }
@@ -640,7 +643,7 @@ strong.blue {
 }
 
 .text p.about-v {
-    position: absolute;
+
     top: 35%;
     left: 130px;
     width: 400px;
